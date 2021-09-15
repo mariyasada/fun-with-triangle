@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is Form a Triangle?</title>
+    <title>Hypotenuse</title>
 </head>
 <body>
     <!-- Navigation part -->
@@ -12,29 +12,29 @@
     <div class="nav-brand">Sada Mariya</div>
     <ul class="list-non-bullets nav-pills">
         <li class="inline-item">
-            <a class="link link-active" href="/IsTraingle.html">Is Triangle?</a>
+            <a class="link" href="/IsTraingle.html">Is Triangle?</a>
         </li>
         <li class="inline-item">
             <a class="link" href="/quiz.html">Quiz</a>
         </li>
         <li class="inline-item">
-            <a class="link" href="/hypotenuse.html">Hypertenouse</a>
+            <a class="link link-active" href="/hypotenuse.html">Hypertenouse</a>
         </li>
         <li class="inline-item">
             <a class="link link-active" href="/area.js">Area</a>
         </li>
     </ul>
 </nav>
-<!-- Content -->
-    <h1>Angles of Triangle</h1>
+<!-- content part -->
+    <h1> Calculate Hypotenuse of a triangle</h1>
     <div class="container">
-        <label for="angle1">Angle1<small>(In Degree)</small></label>
-        <input class="input-angles" type="number"/>
-        <label for="angle2">Angle2<small>(In Degree)</small></label>
-        <input class="input-angles" type="number"/>
-        <label for="angle3">Angle3<small>(In Degree)</small></label>
-        <input class="input-angles" type="number"/>
-        <button id="Istriangle-check-btn">Is Triangle?</button>
+        <label for="firstvalue">Enter Value(a):</label>
+        <input class="sides" type="number"/>
+        <label for="secondvalue">Enter Value(b):</label>
+        <input class="sides" type="number"/>
+        <button id="Hypotenuse-button">Calculate Hypotenuse</button>
+        <h2>Hypotenuse formula</h2>
+        <h3>√(base² + height²)</h3>
         <div id="output"></div>
     </div>
     <!-- Footer Part -->
@@ -52,6 +52,7 @@
         </li>
    </ul>
 </footer>
-    <script src="Istriangle.js"></script>
+    
+    <script src="hypotenuse.js"></script>
 </body>
 </html>

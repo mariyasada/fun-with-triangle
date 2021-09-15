@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is Form a Triangle?</title>
+    <title>Area of Triangle</title>
 </head>
 <body>
-    <!-- Navigation part -->
+<!-- Navigation part -->
 <nav class="navigation container">
     <div class="nav-brand">Sada Mariya</div>
     <ul class="list-non-bullets nav-pills">
         <li class="inline-item">
-            <a class="link link-active" href="/IsTraingle.html">Is Triangle?</a>
+            <a class="link" href="/IsTraingle.html">Is Triangle?</a>
         </li>
         <li class="inline-item">
             <a class="link" href="/quiz.html">Quiz</a>
@@ -25,16 +25,17 @@
         </li>
     </ul>
 </nav>
-<!-- Content -->
-    <h1>Angles of Triangle</h1>
+
+<!-- Body-- -->
+    <h1> Calculate area of a triangle</h1>
     <div class="container">
-        <label for="angle1">Angle1<small>(In Degree)</small></label>
-        <input class="input-angles" type="number"/>
-        <label for="angle2">Angle2<small>(In Degree)</small></label>
-        <input class="input-angles" type="number"/>
-        <label for="angle3">Angle3<small>(In Degree)</small></label>
-        <input class="input-angles" type="number"/>
-        <button id="Istriangle-check-btn">Is Triangle?</button>
+        <label for="Basevalue">Enter BaseValue(B):</label>
+        <input class="sides" type="number"/>
+        <label for="Heightvalue">Enter HeightValue(H):</label>
+        <input class="sides" type="number"/>
+        <button id="Area-button">Calculate Area</button>
+        <h2>Area of Triangle formula</h2>
+        <h3>1/2 (base* height)</h3>
         <div id="output"></div>
     </div>
     <!-- Footer Part -->
@@ -52,6 +53,7 @@
         </li>
    </ul>
 </footer>
-    <script src="Istriangle.js"></script>
+
+    <script src="area.js"></script>
 </body>
 </html>
