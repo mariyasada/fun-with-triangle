@@ -20,6 +20,6 @@ calculateHypo.addEventListener("click",() => {
     // console.log(sumOfSquare);
     const Hypotenuse = Math.sqrt(sumOfSquare);
 
-    outputEl.innerText = "The length of hypotenuse is  " + Hypotenuse;
+    outputEl.innerText = "The length of hypotenuse is  " + Hypotenuse + "   cm";
 
 });

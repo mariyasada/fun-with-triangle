@@ -109,8 +109,9 @@ footer {
   }
   
   #output {
-    font-size: x-large;
+    font-size: 1rem;
     margin: 1rem;
+    text-align: center;
     color: var(--primary-green);
     font-weight: bold;
   }
