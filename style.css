@@ -126,7 +126,7 @@ footer {
     left: 0;
     right: 0;
     color: var(--primary-green);
-    font-weight: bold;
+    font-weight: 400;
   }
   
   footer p {
