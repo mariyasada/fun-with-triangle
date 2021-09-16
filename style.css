@@ -23,8 +23,8 @@ body{
 }
 .navigation .nav-brand
 {
-         font-weight: bold;
-         font-size: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
 }
 .navigation .nav-pills{
     text-align: right;
