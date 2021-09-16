@@ -146,4 +146,16 @@ footer {
   }
 
   /* H2,h3 heading in hypontenuse file */
-  
+  @media (max-width: 900px) {
+    body {
+      max-width: 95%;
+      width: 100%;
+    }
+    .inline-item {
+        display: inline;
+        padding: 0rem;
+      }
+    
+      .container-center {
+        width: auto;
+      }}
