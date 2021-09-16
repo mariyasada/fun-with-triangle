@@ -20,6 +20,7 @@ body{
     background-color: var(--primary-green);
     color: var(--primary-black);
     padding: 1rem;
+    max-width: 600px;
 }
 .navigation .nav-brand
 {
