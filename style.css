@@ -19,7 +19,6 @@ body{
 /* Navigation part */
 header{
     background-color: var(--primary-green);
-    font-size: 1.3rem;
 }
  header a{
     text-decoration: none;
@@ -41,6 +40,7 @@ h2{
     color: var(--primary-green);
     text-shadow: 2px 2px var(--primary-black);
     font-size: 2rem;
+    border-inline-start-width: 0px;
 }
 h3{
     margin-top: 3rem;
