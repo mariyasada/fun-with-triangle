@@ -9,7 +9,7 @@ body{
     margin: 0px auto;
     width: 100%;
     font-family: 'Montserrat', sans-serif;    
-    text-align: center;
+    /* text-align: center; */
 }
 
 :root{
