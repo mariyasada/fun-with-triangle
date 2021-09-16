@@ -3,11 +3,13 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     margin: 0px auto;
     width: 100%;
     font-family: 'Montserrat', sans-serif;    
+    text-align: center;
 }
 
 :root{
@@ -20,7 +22,7 @@ body{
     background-color: var(--primary-green);
     color: var(--primary-black);
     padding: 1rem;
-    max-width: 600px;
+    /* max-width: 990px; */
 }
 .navigation .nav-brand
 {
@@ -33,7 +35,7 @@ body{
 }
 .navigation .link {
     color: rgb(54, 53, 53);
-    font-size: 1.3rem;
+    font-size: 0.8rem;
 }
 .navigation .link-active {
     font-weight: bolder;
