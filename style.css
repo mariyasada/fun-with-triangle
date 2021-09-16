@@ -39,8 +39,7 @@ h2{
     margin:2rem;
     color: var(--primary-green);
     text-shadow: 2px 2px var(--primary-black);
-    font-size: 2rem;
-    border-inline-start-width: 0px;
+    font-size: 2rem; 
 }
 h3{
     margin-top: 3rem;
