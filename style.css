@@ -63,6 +63,7 @@ li, .link
 h1{
     text-align: center;
     margin:2rem;
+    max-width: 30vw;
     color: var(--primary-green);
     text-shadow: 2px 2px var(--primary-black);
 }
