@@ -2,8 +2,8 @@ const inputs= document.querySelectorAll(".input-angles");
 const triangleButton = document.querySelector("#Istriangle-check-btn");
 const outputEl = document.querySelector("#output");
 
-
-function calculatesumofangles(angle1,angle2,angle3){
+//converting code to ES6
+const calculatesumofangles = (angle1,angle2,angle3) =>{
 
     // console.log("sum of angle function");
     const sumofAngles = angle1 + angle2 + angle3;

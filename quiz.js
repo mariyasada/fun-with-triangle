@@ -33,6 +33,6 @@
         index =index + 1;
         // console.log(index);
     }
-    outputEl.innerText = "your score is  "   +  score;
+    outputEl.innerText = `your score is  ${score}`;
 
  });

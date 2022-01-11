@@ -2,7 +2,7 @@ const sides = document.querySelectorAll(".sides");
 const calculateHypo = document.querySelector("#Hypotenuse-button");
 const outputEl= document.querySelector("#output");
 
-function calculateSquare( a, b){
+const calculateSquare = ( a, b) => {
   const sumOfSquare = (a * a )  +  ( b * b);
   return sumOfSquare;
 }
@@ -20,6 +20,6 @@ calculateHypo.addEventListener("click",() => {
     // console.log(sumOfSquare);
     const Hypotenuse = Math.sqrt(sumOfSquare);
 
-    outputEl.innerText = "The length of hypotenuse is  " + Hypotenuse + "   cm";
+    outputEl.innerText = `The length of hypotenuse is ${Hypotenuse} cm`;
 
 });
